@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/location/main",
+    "pages/gift/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,27 +10,27 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "cloud": true,
   "tabBar": {
-    "color":"#1E90FF",
-    "selectedColor":"#FF1493",
-    "list": [
-      {
+    "color": "#1E90FF",
+    "selectedColor": "#FF1493",
+    "list": [{
         "pagePath": "pages/index/main",
-        "text": "首页",
-        "iconPath":"static/img/saosao.png",
-        "selectedIconPath":"static/img/saosao.png"
+        "text": "",
+        "iconPath": "static/img/home.png",
+        "selectedIconPath": "static/img/home-fill.png"
       },
       {
-        "pagePath": "pages/logs/main",
-        "text": "日志",
-        "iconPath":"static/img/saosao.png",
-        "selectedIconPath":"static/img/saosao.png"
+        "pagePath": "pages/location/main",
+        "text": "",
+        "iconPath": "static/img/location.png",
+        "selectedIconPath": "static/img/location-fill.png"
       },
       {
-        "pagePath": "pages/counter/main",
-        "text": "活动",
-        "iconPath":"static/img/saosao.png",
-        "selectedIconPath":"static/img/saosao.png"
+        "pagePath": "pages/gift/main",
+        "text": "",
+        "iconPath": "static/img/gift.png",
+        "selectedIconPath": "static/img/gift-fill.png"
       }
     ]
   }
